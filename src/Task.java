@@ -48,7 +48,11 @@ program ma wygenerować 4 elementy (n), które wyglądają dla podanych s i k ta
 3, 8, 13, 18
 następnie je sumuje i podaje wynik: 42.
 Info o tym jak działa ciąg arytmetyczny jest na wikipedii :)
-11.Napisz program który ma 3 zmienna a, b i c. Te zmienne to długości boków trójkąta. Program ma sprawdzić czy z podanych boków da się zbudować trójkąt. Jeśli się da to program ma wypisać na ekranie true (w przeciwnym wypadku false) i obliczyć obwód tego trójkąta. Jak sprawdzić czy z podanych boków da się zbudować trójkąt znajdziecie w google pod hasłem: "Nierówność trójkąta".
+11.Napisz program który ma 3 zmienna a, b i c. Te zmienne to długości boków trójkąta.
+Program ma sprawdzić czy z podanych boków da się zbudować trójkąt.
+ Jeśli się da to program ma wypisać na ekranie true (w przeciwnym wypadku false)
+ i obliczyć obwód tego trójkąta. Jak sprawdzić czy z podanych boków da się
+  zbudować trójkąt znajdziecie w google pod hasłem: "Nierówność trójkąta".
 12.Napisz program który ma dwie zmienne:
 weight - waga, liczba całkowita
 height - wzrost, liczba całkowita
