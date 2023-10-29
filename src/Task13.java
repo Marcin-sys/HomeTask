@@ -9,20 +9,39 @@ public class Task13 {
           oczek na dwóch kościach które symulujemy.
 
         * */
-
+        int number = 10000;
         Random random = new Random();
-        int sumakostek = 0;
-        int liczbaKtoraWypadalaNajczeesciej = 0;
-        int[] tab = new int[10000];
-        for (int i = 0; i < 10000; i++) {
+        int[] tab = new int[number];
+        for (int i = 0; i < number; i++) {
             int kostka1 = random.nextInt(1, 7);
             int kostka2 = random.nextInt(1, 7);
 
             tab[i] = kostka1 + kostka2;
         }
-        liczbaKtoraWypadalaNajczeesciej = sumakostek;
 
+        for (int element : tab){
+            System.out.print(" " + element);
+        }
+        System.out.println();
 
+        int count = 1 , tempCount;
+        int popular = 1;
+        int temp = 0;
+
+        for ( int i =0; i < 13; i++){
+            temp = i;
+            tempCount = 0;
+            for (int j = 1; j < tab.length; j++){
+                if ( temp == tab[j]){
+                    tempCount++;
+                }
+                if (tempCount > count){
+                    popular = temp;
+                    count = tempCount;
+                }
+            }
+        }
+        System.out.println("number " + popular);
     }
 }
 
