@@ -62,8 +62,5 @@ program ma obliczać BMI (wskaźnik masy ciała, wzór do znalezienia w internec
    ReactReply
 
 
-
-
-
     * */
 }
