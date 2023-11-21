@@ -6,7 +6,7 @@ public class Task5 {
             for (int j = i; j >0 ; j--){
                 System.out.print(" ");
             }
-            for (int k = 2 * (w - i) + 1 ; k > 0; k--){
+            for (int k = 2 * (w - i) +1; k > 0; k--){
                 System.out.print("*");
             }
             System.out.println();
